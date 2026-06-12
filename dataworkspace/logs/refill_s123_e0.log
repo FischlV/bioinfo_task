@@ -1,0 +1,5 @@
+Seed=123 Enc=Binary enc Dim=24550 | Train=(3890, 24550) Test=(973, 24550)
+  LogReg: 0.4358 (1562s)
+  RF: 0.4440 (3s)
+  XGBoost: 0.4800 (66s)
+DONE seed=123 enc=Binary enc | Updated matrix_seed123.json

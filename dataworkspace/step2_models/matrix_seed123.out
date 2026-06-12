@@ -1,0 +1,39 @@
+seed=123 | 7 encodings × 3 models
+Train: 3890, Test: 973
+
+[k=1 AAC (20d)]
+  LogReg: Acc=0.5303, F1=0.2582 (0s)
+  RF: Acc=0.6208, F1=0.4532 (1s)
+  XGBoost: Acc=0.6197, F1=0.4587 (4s)
+
+[k=2 DPC (400d)]
+  LogReg: Acc=0.5046, F1=0.2415 (1s)
+  RF: Acc=0.5797, F1=0.3656 (1s)
+  XGBoost: Acc=0.6310, F1=0.4606 (32s)
+
+[k=3 TPC (8000d)]
+  LogReg: Acc=0.3607, F1=0.1060 (12s)
+  RF: Acc=0.5612, F1=0.3190 (2s)
+  XGBoost: Acc=0.5940, F1=0.4253 (230s)
+
+[Fusion k1+k2 (420d)]
+  LogReg: Acc=0.5324, F1=0.2618 (0s)
+  RF: Acc=0.6053, F1=0.3995 (1s)
+  XGBoost: Acc=0.6403, F1=0.4736 (32s)
+
+[Binary enc (5000d)]
+  LogReg: Acc=0.2867, F1=0.2129 (405s)
+  RF: Acc=0.3628, F1=0.1528 (1s)
+  XGBoost: Acc=0.3350, F1=0.1642 (13s)
+
+[Integer enc (1000d)]
+  LogReg: Acc=0.2662, F1=0.1970 (128s)
+  RF: Acc=0.3731, F1=0.1553 (1s)
+  XGBoost: Acc=0.3299, F1=0.1665 (12s)
+
+[One-hot flatten (20000d)]
+  LogReg: Acc=0.3155, F1=0.2057 (2488s)
+  RF: Acc=0.3607, F1=0.1131 (2s)
+  XGBoost: Acc=0.3525, F1=0.1927 (29s)
+
+Saved to /data2/hyh/yeast_promoter_project/dataworkspace/step2_models/matrix_seed123.json

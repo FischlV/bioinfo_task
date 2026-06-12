@@ -1,0 +1,57 @@
+CPU cores: 192, using 32 workers
+Loading protein data...
+Proteins: 4863
+Location distribution:
+Nucleus               1724
+Membrane_Secretory    1420
+Cytoplasm              801
+Mitochondria           762
+Other                  156
+Loaded 4863 sequences
+Classes: ['Cytoplasm', 'Membrane_Secretory', 'Mitochondria', 'Nucleus', 'Other']
+
+Building k=1 features...
+  k1: 20 features, 32 workers...
+  k1 done: (4863, 20)
+
+Building k=2 features...
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+Fusion (k1+k2): (4863, 420)
+
+Building one-hot encoding...
+  One-hot shape: (4863, 1000, 20) (L=1000)
+
+Building sequence window variants...
+
+  Window: full
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+  Window: N100
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+  Window: N200
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+  Window: NC
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+  Window: mid200
+  k2: 400 features, 32 workers...
+  k2 done: (4863, 400)
+
+Building auxiliary features...
+  Aux features: (4863, 5)
+
+Building labels and train/test split...
+  Train: 3890, Test: 973
+  train: {'Nucleus': 1379, 'Membrane_Secretory': 1136, 'Cytoplasm': 641, 'Mitochondria': 609, 'Other': 125}
+  test: {'Nucleus': 345, 'Membrane_Secretory': 284, 'Cytoplasm': 160, 'Mitochondria': 153, 'Other': 31}
+
+Done! Output -> /data2/hyh/yeast_promoter_project/dataworkspace/step1_features
+Ready to run? Say go!

@@ -1,0 +1,11 @@
+Step 1 蛋白序列特征工程
+==================================================
+总蛋白数: 4863
+类别: ['Cytoplasm', 'Membrane_Secretory', 'Mitochondria', 'Nucleus', 'Other'] (5 classes)
+k=1 (AAC): 20 dim
+k=2 (DPC): 400 dim
+Fusion: 420 dim
+One-hot: (4863, 1000, 20)
+序列窗口: ['full', 'N100', 'N200', 'NC', 'mid200']
+训练集: 3890, 测试集: 973
+多进程: 32 workers

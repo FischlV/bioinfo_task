@@ -1,0 +1,5 @@
+Seed=456 Enc=Binary enc Dim=24550 | Train=(3890, 24550) Test=(973, 24550)
+  LogReg: 0.4347 (1719s)
+  RF: 0.4337 (3s)
+  XGBoost: 0.4964 (66s)
+DONE seed=456 enc=Binary enc | Updated matrix_seed456.json

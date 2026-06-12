@@ -1,0 +1,46 @@
+======================================================================
+SHAP Analysis Summary
+======================================================================
+Completed: 2026-05-29 13:41:51
+Runtime: 5.0s (0.1 min)
+
+Model: XGBoost multiclass (5 classes), k=2 DPC (400 features)
+Test samples: 973, SHAP shape: (973, 400, 5)
+Best class (total SHAP): Membrane_Secretory
+
+--- Top 5 Overall Features ---
+  1. kmer_LF: 0.4938
+  2. kmer_DD: 0.3967
+  3. kmer_FF: 0.3684
+  4. kmer_KR: 0.3633
+  5. kmer_EE: 0.3056
+
+--- Per-Class Top 3 ---
+  Cytoplasm: kmer_HG=0.1273, kmer_LQ=0.1174, kmer_VD=0.1012
+  Membrane_Secretory: kmer_FF=0.2184, kmer_LF=0.2054, kmer_LI=0.1386
+  Mitochondria: kmer_DD=0.2019, kmer_SN=0.1575, kmer_SD=0.1563
+  Nucleus: kmer_KR=0.2189, kmer_DD=0.1407, kmer_LF=0.1379
+  Other: kmer_DY=0.1422, kmer_FK=0.1373, kmer_EA=0.1256
+
+--- DPC Group Analysis (G1=first 200, G2=last 200) ---
+  Cytoplasm: G1=3.9754, G2=3.0066, G2/G1=0.76
+  Membrane_Secretory: G1=4.8517, G2=3.4654, G2/G1=0.71
+  Mitochondria: G1=4.1745, G2=3.6662, G2/G1=0.88
+  Nucleus: G1=3.9983, G2=2.9549, G2/G1=0.74
+  Other: G1=4.2115, G2=3.6893, G2/G1=0.88
+
+--- Output Files ---
+  nohup.out (3.3 KB)
+  shap_beeswarm.png (417.2 KB)
+  shap_by_feature_type.png (71.3 KB)
+  shap_per_class.png (144.3 KB)
+  shap_top_features_per_class.json (2.8 KB)
+  shap_values_full.npy (7601.7 KB)
+  shap_dependence/dep_01_kmer_LF.png (117.6 KB)
+  shap_dependence/dep_02_kmer_DD.png (99.6 KB)
+  shap_dependence/dep_03_kmer_FF.png (103.6 KB)
+  shap_dependence/dep_04_kmer_KR.png (122.4 KB)
+  shap_dependence/dep_05_kmer_EE.png (121.6 KB)
+
+======================================================================
+END

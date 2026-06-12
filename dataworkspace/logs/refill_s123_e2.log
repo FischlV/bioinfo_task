@@ -1,0 +1,5 @@
+Seed=123 Enc=One-hot flatten Dim=98200 | Train=(3890, 98200) Test=(973, 98200)
+  LogReg: 0.5488 (6891s)
+  RF: 0.5036 (13s)
+  XGBoost: 0.5365 (611s)
+DONE seed=123 enc=One-hot flatten | Updated matrix_seed123.json

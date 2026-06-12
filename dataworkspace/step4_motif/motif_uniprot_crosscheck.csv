@@ -1,0 +1,6 @@
+class,n_queried,signal_peptide_count,signal_peptide_pct,nuclear_localization_count,nuclear_localization_pct,mitochondrial_targeting_count,mitochondrial_targeting_pct,transmembrane_count,transmembrane_pct,ER_targeting_count,ER_targeting_pct
+Cytoplasm,30,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Membrane_Secretory,30,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Mitochondria,30,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Nucleus,30,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0
+Other,30,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0

@@ -1,0 +1,30 @@
+# === 大文件 (均可通过脚本重新生成) ===
+
+# One-hot 编码 (最大的文件，1.8G)
+features_onehot.npy
+features_onehot_*.npy
+
+# k=3 三肽频率 (8000维 × 4863蛋白 = 186M)
+features_k3.csv
+
+# 启动子项目遗留 (非本大作业内容)
+step1_preprocess/
+step2_features/
+
+# 重复基因组数据
+ncbi_dataset/
+origin_datas/genomic.gbff
+origin_datas/genomic.gtf
+
+# Python
+__pycache__/
+*.pyc
+
+# 论文临时文件
+~$*.docx
+
+# 参考PDF (太大)
+Resources_JiZL.pdf
+
+# 日志
+nohup.out

@@ -1,0 +1,7 @@
+EXP_B seed=123
+  k=1 AAC (20d): Acc=0.6208, F1=0.4614
+  k=2 DPC (400d): Acc=0.6341, F1=0.4655
+  k=3 TPC (8000d): Acc=0.5930, F1=0.4188
+  Binary enc (5000d): Acc=0.3422, F1=0.1668
+  Integer enc (1000d): Acc=0.3196, F1=0.1624
+  One-hot flatten (20000d): Acc=0.3484, F1=0.1966

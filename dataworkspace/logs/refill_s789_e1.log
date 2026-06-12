@@ -1,0 +1,5 @@
+Seed=789 Enc=Integer enc Dim=4910 | Train=(3890, 4910) Test=(973, 4910)
+  LogReg: 0.3289 (631s)
+  RF: 0.4707 (1s)
+  XGBoost: 0.5159 (22s)
+DONE seed=789 enc=Integer enc | Updated matrix_seed789.json

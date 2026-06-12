@@ -1,0 +1,12 @@
+Step 0 数据获取
+==================================================
+来源: UniProt proteome UP000002311 (S. cerevisiae S288c)
+总蛋白数: 6068
+有亚细胞定位: 4863
+多定位蛋白: 1552
+类别分布:
+  Nucleus: 1724
+  Membrane_Secretory: 1420
+  Cytoplasm: 801
+  Mitochondria: 762
+  Other: 156
